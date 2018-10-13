@@ -5,10 +5,9 @@
 <script>
 export default {
   asyncData() {
+    const stdenv = require('std-env')
+    console.log(stdenv)
     return {
-      fn: () => {
-        return true
-      }
     }
   }
 }
