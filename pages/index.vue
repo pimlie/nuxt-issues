@@ -1,14 +1,15 @@
 <template>
-  <h1>Hello</h1>
+  <div>
+    <h1>My Page</h1>
+
+    <my-component />
+  </div>
 </template>
 
 <script>
 export default {
   asyncData() {
     return {
-      fn: () => {
-        return true
-      }
     }
   }
 }
