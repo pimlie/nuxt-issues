@@ -4,7 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "nuxt dev"
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "start": "nuxt start"
   },
   "dependencies": {
     "nuxt": "^2.2.0"
