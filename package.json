@@ -7,6 +7,6 @@
     "dev": "nuxt dev"
   },
   "dependencies": {
-    "nuxt": "^2.1.0"
+    "nuxt-edge": "latest"
   }
 }
