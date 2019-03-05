@@ -5,11 +5,7 @@
 <script>
 export default {
   asyncData() {
-    return {
-      fn: () => {
-        return true
-      }
-    }
+    return new Promise(resolve => setTimeout(resolve, 20000))
   }
 }
 </script>
