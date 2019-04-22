@@ -4,8 +4,9 @@
 
 <script>
 export default {
-  asyncData() {
-    return new Promise(resolve => setTimeout(resolve, 20000))
-  }
+  /*asyncData() {
+    console.log('async data')
+    return new Promise(resolve => setTimeout(resolve, 60000))
+  }*/
 }
 </script>
