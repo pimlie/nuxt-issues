@@ -1,0 +1,17 @@
+{
+  "name": "nuxt-page-vendor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nuxt dev src"
+  },
+  "dependencies": {
+    "bootstrap-vue": "^2.14.0",
+    "node-sass": "^4.14.1",
+    "nuxt": "^2.12.2",
+    "sass-loader": "^8.0.2",
+    "swiper": "^5.3.8",
+    "vue-awesome-swiper": "^4.1.1"
+  }
+}
